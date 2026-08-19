@@ -1,0 +1,13 @@
+{
+  "name": "lottery-lens",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "sync-history": "node scripts/sync-history.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
+  }
+}

@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+  .latest-draw { align-self: stretch; overflow: hidden; }
+  .latest-draw strong { font-size: 22px; letter-spacing: 2px; white-space: nowrap; }
+  .digit-row { grid-template-columns: repeat(4, 1fr); }
+  .digit-row input { padding-inline: 4px; text-align: center; }
+}
